@@ -27,3 +27,5 @@
 [2022.07.16](https://github.com/IronD414/TIL/blob/main/2022.07.16.md)
 
 [2022.07.18](https://github.com/IronD414/TIL/blob/main/2022.07.18.md)
+
+[2022.07.19](https://github.com/IronD414/TIL/blob/main/2022.07.19.md)
