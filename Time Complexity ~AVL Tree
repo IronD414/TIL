@@ -1,0 +1,91 @@
+## Essential ADT
+
+### Singly Linked List ADT
+
+#### by Array
+
+|---|Best|Average|Worst|
+|---|---|---|---|
+|Build|O(n)|**O(n^2)**|O(n^2)|
+|Insert|O(1)|**O(n)**|O(n)|
+|Find|O(1)|**O(n)**|O(n)|
+|Delete|O(1)|**O(n)**|O(n)|
+
+#### by Struct Node
+
+|---|Best|Average|Worst|
+|---|---|---|---|
+|Build|O(n)|**O(n^2)**|O(n^2)|
+|Insert|O(1) (front)|**O(n)**|O(n) (back)|
+|Find|O(1) (front)|**O(n)**|O(n) (back)|
+|Delete|O(1) (front)|**O(n)**|O(n) (back)|
+
+
+
+### Stack ADT
+
+#### by Array
+
+|---|Best|Average|Worst|
+|---|---|---|---|
+|Build|O(n)|**O(n)**|O(n)|
+|Insert(Push)|O(1)|**O(1)**|O(n) (resize)|
+|Find(Top)|O(1)|**O(1)**|O(1)|
+|Delete(Pop)|O(1)|**O(1)**|O(1)|
+
+#### by Linked List
+
+|---|Best|Average|Worst|
+|---|---|---|---|
+|Build|O(n)|**O(n)**|O(n)|
+|Insert(Push)|O(1)|**O(1)**|O(1)|
+|Find(Top)|O(1)|**O(1)**|O(1)|
+|Delete(Pop)|O(1)|**O(1)**|O(1)|
+
+
+### Queue ADT
+
+#### by Array
+
+|---|Best|Average|Worst|
+|---|---|---|---|
+|Build|O(n)|**O(n)**|O(n)|
+|Insert(Enqueue)|O(1)|**O(1)**|O(n) (resize)|
+|Find(Peek)|O(1)|**O(1)**|O(1)|
+|Delete(Dequeue)|O(1)|**O(1)**|O(1)|
+
+#### by Linked List
+
+|---|Best|Average|Worst|
+|---|---|---|---|
+|Build|O(n)|**O(n)**|O(n)|
+|Insert(Enqueue)|O(1)|**O(1)**|O(1)|
+|Find(Peek)|O(1)|**O(1)**|O(1)|
+|Delete(Dequeue)|O(1)|**O(1)**|O(1)|
+
+
+
+## Graph
+
+### Binary Search Tree (BST)
+
+#### by Struct Node
+
+|BST's status|Best|Average|Worst|
+|---|---|---|---|
+|Build|O(n)|**O(n)**|O(n)|
+|Insert|O(logn)|**O(logn)**|O(n)|
+|Find|O(logn)|**O(logn)**|O(n)|
+|Delete|O(logn)|**O(logn)**|O(n)|
+
+
+### Adelson-Velskii and Landis (AVL) Tree
+
+#### by Struct Node
+
+|AVL Tree's status|Best|Average|Worst|
+|---|---|---|---|
+|Build|O(nlogn)??|**O(nlogn)??**|O(nlogn)??|
+|Insert|O(logn)|**O(logn)**|O(logn)|
+|Find|O(logn)|**O(logn)**|O(logn)|
+|Delete|O(logn)|**O(logn)**|O(logn)|
